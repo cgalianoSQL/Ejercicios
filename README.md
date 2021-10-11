@@ -1,2 +1,2 @@
 # Ejercicios
-Ejercicios de facultad usando tecnologias como javascript, php, css y html
+Ejercicios de facultad usando tecnologias como javascript, php, css, bootstrapy html
