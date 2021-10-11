@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg.jpeg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  background-color:  rgb(4, 0, 255);
+  color: #fff;
+  padding: 10px 0 10px;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid  rgb(4, 0, 255); 
+  border-radius: 1px;
+  box-shadow: 0px 0px 30px #A4a4a4;
+
+}
+
+.cv-form {
+  width: 50%;
+  background: #000;
+  color: #fff;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+label {
+  margin: 0;
+  width: 25%;
+  padding: 6px;
+  font-weight: bold;
+  display: block;
+  background-color: rgb(4, 0, 255);
+  border-radius: 15px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] ,input[type="number"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.academico input[type="text"], .laboral input[type="text"]{
+  width: 100%;
+}
+
+input[type="date"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #005eaa;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+}

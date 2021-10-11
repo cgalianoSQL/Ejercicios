@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#menu{
+  width: 65%;
+  height: 40px;
+  float: right;
+  margin-top: 20px;
+}
+
+#menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#menu ul li .active_now{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  background: #fcfcfca9;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#menu ul li .active:hover{
+  background: #fcfcfca9;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+
+header{
+  background: #ec6905c5;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 0px 30px #A4a4a4;
+  border-bottom-style: solid;
+  border-bottom-color: #585858;
+  border-bottom-width: 5px;
+}
+
+#encabezado{
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+
+}
+
+.avatar {
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ec6905c5;
+  color: white;
+  text-align: center;
+}
+
+
+
+.Inmuebles-form {
+  width: 75%;
+  background: rgb(5, 5, 5);
+  color: #fff;
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 15px 25px;
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-bottom: 60px;
+}
+
+
+
+h2{
+  text-align: center;
+
+}
+
+label{
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #091fe9c7;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+input[type="submit"]:hover{
+  background: #4429c0a9;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+}

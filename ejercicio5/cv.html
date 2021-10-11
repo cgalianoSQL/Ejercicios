@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login Javascrip</title>
+    <link rel="stylesheet" href="css/master_cv.css">
+  </head>
+  <body>
+
+      <h1>Curriculum vitae</h1>
+      <form name="cvBox" class="cv-form" id="formulario">
+        <label for="personales">Datos Personales</label>
+        <input type="text" name="nombre" placeholder="Ingresar Nombre Completo" minlength="1" required=true>
+        <input type="number" name="dni" placeholder="Ingresar Dni" minlength="1" required=true>
+        <input type="email" name="correo" placeholder="Ingresar Correo" minlength="1" required=true>
+        <input type="tel" name="telefono" placeholder="Ingresar Telefono" minlength="1" required=true>
+        <input type="date" name="fecha_nacimiento" required=true>
+        
+        <label for="academicos">Datos Academicos</label>
+
+        <div class="academico">
+          <input type="text" name="segundario" placeholder="Introducir Estudio segundario" >
+          <input type="text" name="otros_estudios" placeholder="Introducir Otros Estudios" >
+         </div>
+
+
+        <label for="laboral">Datos Laborales</label>
+
+        <div class="laboral">
+          <input type="text" name="primerLaboral" placeholder="Ingrasar Ultima Experiencia laboral">
+          <input type="text" name="segunLaboral" placeholder="Ingrasar Experiencia laboral" >
+        </div>
+
+        <input type="submit" value="Enviar">
+
+      </form>
+  
+      <script src="js/ingreso_cv.js"></script>
+  </body>
+</html>

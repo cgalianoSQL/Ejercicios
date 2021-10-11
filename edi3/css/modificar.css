@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#menu{
+  width: 65%;
+  height: 40px;
+  float: right;
+  margin-top: 20px;
+}
+
+#menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#menu ul li .active_now{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  background: #fcfcfca9;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#menu ul li .active:hover{
+  background: #fcfcfca9;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+
+header{
+  background: #ec6905c5;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 0px 30px #A4a4a4;
+  border-bottom-style: solid;
+  border-bottom-color: #585858;
+  border-bottom-width: 5px;
+}
+
+#encabezado{
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+
+}
+
+.avatar {
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.footer {
+  margin: 0%;
+  padding: 1%;
+  position: relative;
+  left: 0;
+  width: 100%;
+  background-color: #ec6905c5;
+  color: white;
+  text-align: center;
+  bottom: -50px;
+}
+
+
+.Inmuebles-form {
+  width: 55%;
+  background: #f19f62;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+label {
+  margin: 5px;
+  width: 25%;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin: 5px;
+  width: 100%;
+}
+
+
+select {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin: 5px;
+}
+
+
+textarea{
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin: 15px;
+  width: 100%;
+}
+
+input[type="number"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin: 5px;
+  width: 40px;
+}
+
+#precio{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  margin: 5px;
+  width: 80px;
+}
+
+.imagen input[type="text"]{
+  width: 100%;
+}
+
+input[type="date"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+input[type="submit"] {
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #157448c7;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+input[type="submit"]:hover{
+  background: #58c079a9;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+}
